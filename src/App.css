@@ -1,0 +1,48 @@
+.container {
+  width: 80%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #F7F7F7;
+  padding: 20px;
+}
+
+
+.profile {
+  border-top: 5px solid #FFD700;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.work-experience, .skills, .education {
+  border-top: 2px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.work2, .profile2 {
+  flex-basis: 30cm;
+}
+
+.ed2 {
+  flex-basis: 25.25cm;
+}
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 25.25cm;
+}
+
+.skills li {
+  width: calc(33.33% - 10px);
+}
